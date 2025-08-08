@@ -18,7 +18,7 @@ function ListaCompras() {
   const eliminarProducto = (index) => {
     const nuevosProductos = productos.filter((_, i) => i  !== index);
     setProductos(nuevosProductos);
-    alert(`Producto eleminado: ${nuevoProducto}`);
+    alert(`Producto eleminado ${productos[index]}`);
     // Completar la lógica para eliminar un producto
   };
 
